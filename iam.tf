@@ -32,6 +32,5 @@ resource "aws_iam_user" "more-users" {
   for_each = toset([
     "user1",
     "user2",
-    "user3",
   ])
 }
