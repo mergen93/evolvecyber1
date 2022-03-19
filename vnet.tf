@@ -80,10 +80,6 @@ output vnet_id {
 }
 
 
-output azs {
-    value =azurerm_virtual_network.terraform.azs
-}
-
 output subnet{
     value =azurerm_virtual_network.terraform.subnet
 }
