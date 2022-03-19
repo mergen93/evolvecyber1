@@ -83,6 +83,6 @@ resource "azurerm_virtual_network" "terraform" {
 # output "subnet"{
 #     value =azurerm_virtual_network.terraform.subnet
 # }
-output "full_info " {
+output full_info {
   value = azurerm_virtual_network.terraform.*
 }
