@@ -75,14 +75,11 @@ resource "azurerm_virtual_network" "terraform" {
   }
 }
 
-# output "vnet_id" {
-#     value = azurerm_virtual_network.terraform.id
-# }
+output "vnet_id" {
+    value = azurerm_virtual_network.terraform.id
+}
 
 
-# output "subnet"{
-#     value =azurerm_virtual_network.terraform.subnet
-# }
-output full_info {
-  value = azurerm_virtual_network.terraform.*
+output "subnet"{
+    value =azurerm_virtual_network.terraform.subnet
 }
