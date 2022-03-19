@@ -76,10 +76,10 @@ resource "azurerm_virtual_network" "terraform" {
 }
 
 output "vnet_id" {
-    value = resource.vnet_id
+    value = resource.virtual_network_id
 }
 
 
-output "subnet"{
-    value =azurerm_virtual_network.terraform.subnet
-}
+# output "subnet"{
+#     value =azurerm_virtual_network.terraform.subnet
+# }
