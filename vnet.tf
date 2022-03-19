@@ -81,5 +81,5 @@ output "vnet_id" {
 
 
 output "subnet"{
-    value = azurerm_virtual_network.terraform.subnet1
+    value = azurerm_virtual_network.terraform.subnet
 }
