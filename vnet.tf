@@ -76,7 +76,7 @@ resource "azurerm_virtual_network" "terraform" {
 }
 
 output "vnet_id" {
-    value = azurerm_virtual_network.terraform.virtual_network_id
+    value = azurerm_virtual_network.terraform.id
 }
 
 
